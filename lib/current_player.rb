@@ -9,10 +9,14 @@ board.each do |token|
   counter
 end
 
-def current_player(board)
-  if turn_count(board).even?
-     "X"
-  else
-     "O"
-  end
+# def current_player(board)
+#   if turn_count(board).even?
+#      "X"
+#   else
+#      "O"
+#   end
+# end
+
+def current_player
+#turn_count(board) < 1 ? "X" : "O"
 end
