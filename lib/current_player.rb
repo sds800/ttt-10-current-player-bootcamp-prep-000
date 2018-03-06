@@ -10,7 +10,7 @@ board.each do |token|
 end
 
 def current_player(board)
-  if turn_count(board) % 2 == 0 || turn_count(board) % 2 == nil
+  if turn_count(board) % 2 == 0 || turn_count.nil?
     puts "X"
   else
     puts "O"
