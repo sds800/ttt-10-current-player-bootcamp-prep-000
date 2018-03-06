@@ -18,5 +18,5 @@ end
 # end
 
 def current_player
-turn_count(board) < 1 ? "X" : "O"
+turn_count(board).even? ? "X" : "O"
 end
